@@ -1,0 +1,5 @@
+$file = fopen(__DIR__ . '/code.txt', 'r');
+for ($i = 0; $i < 4; $i++) {
+    echo fgets($file);
+    echo '<br>';
+}
